@@ -1,0 +1,56 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.note-form {
+    margin-bottom: 20px;
+}
+
+.note-form input,
+.note-form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+.note-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.notes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.note {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.note button:first-of-type {
+    background-color: #ffc107;
+}
+
+.note button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+}
